@@ -79,7 +79,7 @@
 
 ```C
 //singly.c
-#include<hs_sll.h> 
+#include<tm_sll.h> 
 #include<stdio.h>
 int main()
 {
@@ -124,8 +124,8 @@ int main()
 ```
 **To Compile the above code using mingw -**
 
-    gcc singly.c -o singly.exe -I ..\include -L..\lib -lhs
-    //hs is name of the library
+    gcc singly.c -o singly.exe -I ..\include -L..\lib -ltm
+    //tm is name of the library
 
 
 ## **Generic Doubly Linked List**
@@ -209,7 +209,7 @@ int main()
 
 ```C
 //Doubly.c
-#include<hs_dll.h> 
+#include<tm_dll.h> 
 #include<stdio.h>
 int main()
 {
@@ -269,8 +269,8 @@ int main()
 ```
 **To Compile the above code using mingw -**
 
-    gcc doubly.c -o doubly.exe -I ..\include -L..\lib -lhs
-    //hs is name of the library
+    gcc doubly.c -o doubly.exe -I ..\include -L..\lib -ltm
+    //tm is name of the library
 
 
 ## **Generic Stack**
@@ -327,7 +327,7 @@ int main()
 
 ```C
 //Stack.c
-#include<hs_stack.h> 
+#include<tm_stack.h> 
 #include<stdio.h>
 int main()
 {
@@ -371,8 +371,8 @@ int main()
 
 **To Compile the above code using mingw -**
 
-    gcc stack.c -o stack.exe -I ..\include -L..\lib -lhs
-    //hs is name of the library
+    gcc stack.c -o stack.exe -I ..\include -L..\lib -ltm
+    //tm is name of the library
 
 
 ## **Generic Queue**
@@ -429,7 +429,7 @@ int main()
 
 ```C
 //Queue.c
-#include<hs_queue.h> 
+#include<tm_queue.h> 
 #include<stdio.h>
 int main()
 {
@@ -470,8 +470,8 @@ int main()
 ```
 **To Compile the above code using mingw -**
 
-    gcc queue.c -o queue.exe -I ..\include -L..\lib -lhs
-    //hs is name of the library
+    gcc queue.c -o queue.exe -I ..\include -L..\lib -ltm
+    //tm is name of the library
 
 
 
